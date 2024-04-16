@@ -54,7 +54,7 @@ function addNumbers() {
 
     console.log(`Il risultato finale è ${total}`);
 }
-// addNumbers();
+addNumbers();
 
 // dobbiamo aggiungere il parseInt cosi da trasformare da Stinga a numero quello che utente ci forisce con il prompt, senno potrebbe essere che JS lo interpreti come una concatenazione
 
@@ -80,7 +80,7 @@ function checkAccess() {
         console.log('Accesso negato!');
     }
 }
-// checkAccess();
+checkAccess();
 
 // il valore booleano di grantAccess non deve essere racchiuso tra appici (almeno in questo esercizio)
 
